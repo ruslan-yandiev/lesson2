@@ -13,6 +13,6 @@ months = {
   декабрь: 31
 }
 
-months.each do |i|
-  puts i[0] if i[1] == 30
+months.each do |key, value|
+  puts key if value == 30
 end
